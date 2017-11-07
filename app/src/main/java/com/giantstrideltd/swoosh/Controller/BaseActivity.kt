@@ -44,4 +44,5 @@ open class BaseActivity: AppCompatActivity() {
     }
 
 
+    open fun onsaveInstanceState(outState: Bundle?) {}
 }
