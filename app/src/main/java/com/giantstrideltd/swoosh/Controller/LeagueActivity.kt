@@ -1,10 +1,11 @@
-package com.giantstrideltd.swoosh
+package com.giantstrideltd.swoosh.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.giantstrideltd.swoosh.Utilities.EXTRA_LEAGUE
+import com.giantstrideltd.swoosh.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
